@@ -1,2 +1,10 @@
 # ah677.github.io
-ENGRC 3025 Personal Website
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ariana Haghighi</title>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+</body>
+</html>
