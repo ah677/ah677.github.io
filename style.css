@@ -3,9 +3,8 @@
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    border: white; 
-    border-style: solid;
 }
+
 body {
     background-color: white;
   }
@@ -49,6 +48,10 @@ body {
     margin-top: 60px;
     padding: 10px 20px;
   }
+
+link{
+ transform: rotate(90deg);
+}
   
  
   
