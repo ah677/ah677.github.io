@@ -52,6 +52,12 @@ body {
 link{
  transform: rotate(90deg);
 }
+
+img{
+  display: flex;
+  justify-content: center;
+
+}
   
  
   
