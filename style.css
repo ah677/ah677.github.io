@@ -9,7 +9,6 @@
   .navigation {
     margin: 0;
     padding: 0;
-    text-align: left;
     font-weight: 100;
     letter-spacing: 2px;
     padding: 20px;
@@ -23,7 +22,7 @@
   }
   
   h2 {
-    color: grey;
+    color: red;
     font-size: 34px;
     line-height: 48px;
     padding: 20px 30px;
