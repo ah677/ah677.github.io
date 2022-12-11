@@ -23,7 +23,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo"><strong>Robotic Arm</strong></a>
+									<a class="logo"><strong>Chord Identifier</strong></a>
 									<ul class="icons">
 										<li><a href="https://www.linkedin.com/in/ariana-haghighi/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 										<li><a href="mailto:ah677@cornell.edu" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
@@ -32,30 +32,34 @@
 							<!-- Content -->
 							<section>
 								<header class="main">
-									<h1>Robotic Arm</h1>
+									<h1>Chord Identifier</h1>
 								</header>
 								
 								<video width="640" height="480" controls>
-									<source src="robotic_arm.mov" type="video/mp4" alt="Video of the Robotic Arm touching a Teddy Bear">
+									<source src="https://www.youtube.com/watch?v=JIY8UpBPMSs&list=PLDqMkB5cbBA6AwYC_DElkDStUdOsTuIL7&index=7&t=44s" type="video/mp4" alt="Video of the Chord Identifier Working">
 								  	Your browser does not support the video tag.
 								  </video>
 
 								<hr class="major" />
 								
 
-								<h2>Video of Robotic Arm Moving Motors in Parallel</h2>
+								<h2>Video of the Chord Identifier Identifying Chords from Synthesized Instruments</h2>
 
-								<p>A camera takes a picture of the teddy bear, the object detection algorithms plot the optimal path, and the motors in the arm move along the optimal path.</p>
-								<p>This video depicts a project I worked on for the <a href ="https://cornellcuprobotics.com/" target="_blank">Cornell Cup Robotics Team.</a> 
-									At a high level, a camera takes a picture of the arm's surroundings. 
-									The Computer Science team has algorithms that analyze the picture. 
-									They <b>identify an object (a teddy bear),</b> check to see if there are any obstacles in the way, and <b>map the optimal path to the object.</b>
-									The optimal path is sent to the the file of code the I wrote. 
-									This <b>file interprets the command</b> and tells the motors to move together.
-									It <b>pulses each of the motors in parallel</b> so the arm looks life like.
-									Ultimately, the arm identifies the teddy bar and touches it. 
+								<p>A microphone collects audio data, the microcontroller interprets that data and displays any 3-note chord that it hears on the VGA monitor screen.</p>
+								
+								<p>This video depicts my final project for my senior design class, <a href ="https://ece4760.github.io/" target = "_blank">ECE 4760.</a> 
+									Musical notes are identified by their frequencies. 
+                                    A series of notes played at the same time create a chord. 
+                                    My lab partners and I aimed to <b>identify any 3-note chord</b> using a microphone and a microcontroller. 
+                                    The microphone collects audio data. 
+                                    Using a <b>Sallen-Key Low Pass Filter</b> we remove any extra audio data. 
+                                    The remaining data enters a <b>Pico microcontroller</b> which finds the three 'strongest' frequencies using a <b>Fast Fourier Transform (FFT).</b>
+                                    After the three strongest frequencies are found, they are matched to the correct note. 
+                                    If the combination of all three notes is a valid chord, that <b>chord is displayed on the VGA monitor screen.</b>
+                                    Our design can identify <b>major, minor, augmented, diminished, and triad</b> chords.                     
 								</p>
-								<p>If you would like to learn more about this project, <a href="https://docs.google.com/document/d/1TdzzRs_0TMQyZWj6Yo3mKMq9roMKivxe44s49QklRIY/edit?usp=sharing" target = "_blank">here</a> is some documentation at a lower level describing
+
+								<p>If you would like to learn more about this project, <a href="https://docs.google.com/document/d/1lQPSx9XhVc8cox5mrqKLl_uowRgx8M26NinkldSFfao/edit?usp=sharing" target="_blank">here</a> is some documentation at a lower level describing
 									how this system was implemented and tested. 
 								</p>
 							</section>
@@ -86,7 +90,7 @@
 											<ul>
 												<li><a href="robotic_arm.html">Robotic Arm</a></li>
 												<li><a href="reaction_wheel.html">Reaction Wheel</a></li>
-												<li><a href="chord_identifier.html">Chord Identifier</a></li>
+                                                <li><a href="chord_identifier.html">Chord Identifier</a></li>
 
 											</ul>
 										</li>
