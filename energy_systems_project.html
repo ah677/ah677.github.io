@@ -32,33 +32,40 @@
 							<!-- Content -->
 							<section>
 								<header class="main">
-									<h1>Wholesale Electricity Market</h1>
+									<h2>Wholesale Electricity Market</h2>
 								</header>
 
-                                <img src="./pjm_bus.png" alt="Diagram of five-bus Market" width="834" height="536" />
+                                <p>This project aims to gain empirical understanding of key concepts of wholesale energy market via
+                                    numerical simulation of the IEEE 5-bus model of the Pennsylvania-New Jersey-Maryland (PJM) Power Grid Interconnection: </p>
 
+                                <img src="./pjm_bus.png" alt="Diagram of five-bus Market" width="834" height="536" />
 								
 								<hr class="major" />
 								
-                                <h2>Wholesale Electricity Market</h2>
+                                <H3> Project highlights:</H3>
 
-                                <p>This project aims to gain empirical understanding of key concepts of wholesale energy market via
-                                    numerical simulation. </p>
+                                <p>This page is a high level overview of one of the problems I solved in my final project.
+                                    
+                                    Click 
+                                    <a href="https://drive.google.com/file/d/1UKuB2Ozz0VZrldokLjo24rVvsG9eNMVT/view?usp=sharing" target="_blank">here</a> 
+                                     to see the full assignment and click 
+                                     <a href="https://docs.google.com/document/d/1dft4_JwWbV9_a6Jz09IW06dJQv1Am3lI9UkiH59SZd8/edit?usp=sharing" target="_blank">here</a> to see my full solution.
+                                </p>     
+                                    
+                                <p> Consider multi-interval economic dispatch where the dispatch of all intervals are determined
+                                    simultaneously. Let P_it be the generation level of generator i in interval t. The multi-interval
+                                    economic dispatch is to determine the optimal dispatch level P*it for all generators and the flexible
+                                    demand D*4t
+                                    in all intervals, subject to (i) the power balance constraints in each interval and (ii)
+                                    ramping constraint between adjacent intervals. The inelastic demands D2 and D3 ramps as below:</p>
+                                    
+                                    <img src="./inelastic_demand.png" alt="Inelastic Demand for buses 2 and 3 for each time interval" width="834" height="536" />
 
-								<h3>Part 1: Economic Dispatch and Locational Marginal Pricing (LMP) </h3>
+                                    <p>Assume that the ramping constraints of all generators and flexible demand are symmetrical and they are 6% of individual generation and consumption limits. There is no initial ramping
+                                        constraint.</p>
 
-
-
-								<p>More description</p>                   
-
-                                <h3>Part 2: Unit Commitment, Restricted LMP, and Extended LMP </h3>
-
-                                <p> Description</p>
-
-
-								<p>If you would like to learn more about this project, <a href="https://docs.google.com/document/d/1lQPSx9XhVc8cox5mrqKLl_uowRgx8M26NinkldSFfao/edit?usp=sharing" target="_blank">here</a> is some documentation at a lower level describing
-									how this system was implemented and tested. 
-								</p>
+                                    <img src="./Multi_interval_highlights.png" alt="Solution to Multi-Interval Dispatch Problem" width="1408" height="1176" />
+                                   
 							</section>
 									
 						</div>
